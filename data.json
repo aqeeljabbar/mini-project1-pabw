@@ -1,0 +1,20 @@
+{
+    "Toko_Buku": {
+        "Nama": "Toko Buku Gunung Agung",
+        "Alamat": "Jl. Padjajaran",
+        "Koleksi Buku": [
+            {
+            "Judul": "Filosofi Teras",
+            "Kategori": "Self Development",
+            "Penulis": "Henry Manampiring"
+        }, {
+
+            "Judul": "Filosofi Arete",
+            "Kategori": "Self Development",
+            "Penulis": "Henry Manampiring"
+        }
+    
+    ]
+    }
+
+}
