@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Buku</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #555;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+
+    <div id="toko-info">
+      <h3>Nama Toko Buku</h3>
+      <p id="nama"></p>
+      <h3>Alamat</h3>
+      <p id="alamat"></p>
+    </div>
+
+    <div id="daftar-buku">
+      <h2>Koleksi Buku</h2>
+      <table id="tabel-buku">
+        <thead>
+          <tr>
+            <th>Judul</th>
+            <th>Pengarang</th>
+            <th>Tahun Terbit</th>
+          </tr>
+        </thead>
+        <tbody id="daftar-buku"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

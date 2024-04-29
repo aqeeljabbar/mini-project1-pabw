@@ -1,8 +1,8 @@
 {
-    "Toko_Buku": {
+    
         "Nama": "Toko Buku Gunung Agung",
-        "Alamat": "Jl. Padjajaran",
-        "Koleksi Buku": [
+        "Alamat": "Jl. Padjajaran No. 5 Kota Jakarta Selatan",
+        "Koleksi_Buku": [
             {
             "Judul": "Filosofi Teras",
             "Kategori": "Self Development",
@@ -12,9 +12,14 @@
             "Judul": "Filosofi Arete",
             "Kategori": "Self Development",
             "Penulis": "Henry Manampiring"
+        }, {
+
+            "Judul": "You Do You",
+            "Kategori": "Self Development",
+            "Penulis": "Fellexandro Ruby"
         }
     
     ]
-    }
+    
 
 }
